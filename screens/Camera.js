@@ -9,6 +9,7 @@ export default class PickImage extends React.Component {
   };
 
   render() {
+    //destructuring
     let { image } = this.state;
 
     return (
